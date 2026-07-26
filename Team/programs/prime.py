@@ -14,8 +14,9 @@ else:
 
     for i in  range(2,num):
         if num % i==0:
-            prime==False
+            prime=False
             break
+
     # Display result
     if prime:
         print(num, "is a Prime Number")
