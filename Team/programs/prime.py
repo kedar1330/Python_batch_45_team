@@ -12,6 +12,9 @@ else:
 
     prime=True
 
+
+ # Check divisibility from 2 to num - 1
+
     for i in  range(2,num):
         if num % i==0:
             prime=False
