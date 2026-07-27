@@ -5,4 +5,4 @@ print (f"Fibonacci Series of {n} numbers:")
 #for loop to iterate through the range
 for i in range(n):
     print(a,end=" ")
-    a=b,a+b
+    a,b=b,a+b
